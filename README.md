@@ -1,10 +1,8 @@
 # requirejs-optimize
 Optimize requirejs projects with [r.js](https://github.com/jrburke/r.js).
 
-#File Structure
-
 #Installation
-##requirejs
+###requirejs
     npm install -g requirejs
     
 After installation:
