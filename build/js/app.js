@@ -1,0 +1,1 @@
+requirejs.config({baseUrl:"./build",paths:{lodash:"js/lib/lodash/dist/lodash",jquery:"js/lib/jquery/dist/jquery.min",when:"js/lib/when/when"},shim:{jquery:{exports:"$"}}}),requirejs(["js/app/"+globalSetting.name],function(e){});
