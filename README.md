@@ -1,9 +1,6 @@
 # requirejs-optimize
 Optimize requirejs projects with [r.js](https://github.com/jrburke/r.js).
 
-####Download Demo
-You can get the demo first: [requirejs-optimize](https://github.com/hztpp1031/requirejs-optimize)
-
 #File Structure
 
 #Installation
@@ -15,7 +12,7 @@ After installation:
 * find r.js under the path of installed directory, and paste r.js to the root of your requirejs project.
 * create build.js under the root of your requirejs project.
 
-###build.js
+###build.js example
 ```js
 {
     //The directory path to save the output.
@@ -44,9 +41,10 @@ After installation:
 }
 ```
 
-see more: [doc of build.js](https://github.com/jrburke/r.js/blob/master/build/example.build.js)
-
 #Configuration
+
+[doc of build.js](https://github.com/jrburke/r.js/blob/master/build/example.build.js)
+
 
 #Run
     node r.js -o build.js
