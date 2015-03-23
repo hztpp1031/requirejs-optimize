@@ -20,7 +20,7 @@ After installation:
     baseUrl: "./src",
     //the main script of the project which contain the configuration for the app
     //if set, all config below is not neccesory
-    mainConfigFile: 'js/app.js',
+    mainConfigFile: './src/js/app.js',
     //module you want to optimize(the entry file which require modules)
     //path relative to the baseUrl
     name: "js/app/rtest",
